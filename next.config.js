@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  images: {
+    domains: ["polyplace.infura-ipfs.io", "ipfs.infura.io"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
